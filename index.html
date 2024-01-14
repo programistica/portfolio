@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Programistica</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="aside">
+        <div id="menu"></div>
+      </aside>
+      <div id="header" class="header"></div>
+      <main class="main">
+        <div id="home">home</div>
+      </main>
+    </div>
+    <script src="components.js"></script>
+    <script>
+      document.getElementById("menu").innerHTML = Menu();
+      document.getElementById("header").innerHTML = Header();
+      document.getElementById("home").innerHTML = Home();
+    </script>
+  </body>
+</html>
