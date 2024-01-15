@@ -44,7 +44,3 @@ function Footer() {
     <h4>© 2024 Eve N</h4>
     </div>`;
 }
-
-document.getElementById("header").innerHTML = Header();
-document.getElementById("home").innerHTML = Home();
-document.getElementById("footer").innerHTML = Footer();
