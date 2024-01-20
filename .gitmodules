@@ -1,0 +1,3 @@
+[submodule "studies-front-end"]
+	path = studies-front-end
+	url = https://github.com/programistica/studies-front-end.git
